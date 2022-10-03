@@ -1,0 +1,238 @@
+body {
+    background-color: #f4ecff;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+#menu1,#menu2,#menu3,#menu4,#menu5,#menu6,#menu7 {
+    list-style-type: none;
+}
+
+#menu3 {
+    padding-left: 550px;
+}
+
+.allinformation {
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+#thongtin {
+    border-bottom: 1px solid rgb(160, 160, 160); 
+}
+
+.icon {
+    display: flex;
+}
+
+.navbar-nav {
+    display: flex;
+}
+
+.phone2, .mail2 {
+    padding-left: 10px;
+}
+
+#logo img {
+    max-width: 145px;
+    height: auto;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0px auto;
+    display: flex;
+    justify-items: center;
+}
+
+#main-menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 90%;
+}
+
+#main-menu li a {
+    color:#1A1B1E;
+    display: block;
+    padding: 27px 20px;
+    text-decoration: none;
+}
+
+#menu7 {
+    padding-top: -15px;
+    padding-left: 100px;
+}
+
+/*Thiết lập border khi hover*/
+#main-menu li#main-home a, #main-menu li#main-company a, #main-menu li#main-services a, #main-menu li#main-projects a, #main-menu li#main-blog a {
+    display: flex;
+}
+
+#main-menu>li:hover>a, #main-menu li>a:hover {
+    color:aqua;
+}
+
+#main-menu>li>a {
+    position: relative;
+}
+
+#main-menu>li>a::before {
+    content:"";
+    height: 4px;
+    width: 0px;
+    background:#7141b1;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#main-menu>li:hover>a::before {
+    width: 100%;
+}
+
+.facebook, .twitter1, .linked1, .instagram {
+    color: darkgrey;
+}
+
+.facebook:hover {
+    color: aqua;
+}
+
+.twitter1:hover {
+    color:aqua;
+}
+
+.linked1:hover {
+    color: aqua;
+}
+
+.instagram:hover {
+    color: aqua;
+}
+
+
+#main-menu ul.sub-menu {
+    display: none;
+}
+
+#main-menu ul.sub-menu a{
+    padding: 8px 15px;
+}
+
+#main-menu li:hover>ul.sub-menu {
+    display: block;
+}
+
+ul.sub-menu>li:hover>a {
+    color:aqua;
+}
+
+/*home*/
+#main-home {
+    padding-left: 100px;
+}
+
+#home1, #home2, #home3, #home4 {
+    padding-left: 100px;
+    list-style-type: none;
+    background-color: white;
+    position: absolute;
+    width: 250px;
+}
+
+#home1 {
+    margin-left: -220px;
+    padding-left: 50px;
+}
+
+#home2 {
+    padding-left: 50px;
+    margin-left: 30px;
+}
+
+#home3 {
+    padding-left: 50px;
+    margin-left: 300px;
+}
+
+#home4 {
+    padding-left: 50px;
+    margin-left: 550px;
+}
+
+#company {
+    list-style-type: none;
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    padding-left: 5px;
+}
+
+#shop {
+    list-style-type: none;
+    background-color: white;
+    width: 200px;
+    top: 130px;
+    position: absolute;
+    margin-left: 200px;
+}
+.main-shop{
+    position: relative;
+}
+
+#services {
+    list-style-type: none;
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    padding-left: 5px;
+}
+
+#projects {
+    list-style-type: none;
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    padding-left: 5px;
+}
+
+#portfolio-grid {
+    list-style-type: none;
+    background-color: white;
+    width: 210px;
+    position: absolute;
+    margin-left: 200px;
+    top: 65px;
+}
+
+.main-portfolio-grid {
+    position: relative;
+}
+
+#portfolio-details {
+    list-style-type: none;
+    background-color: white;
+    width: 200px;
+    position: absolute;
+    margin-left: 200px;
+    top: 100px;
+}
+
+.main-portfolio-details {
+    position: relative;
+}
+
+#blog {
+    list-style-type: none;
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    padding-left: 5px; 
+}
